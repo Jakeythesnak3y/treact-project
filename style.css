@@ -10,6 +10,10 @@ a {
   position: relative;
 }
 
+.purple {
+  color: #6415FF;
+}
+
 .row {
   width: 100%;
   max-width: 1200px;
@@ -106,4 +110,93 @@ li {
   width: 100%;
   opacity: 1;
   background-color: #6415FF;
+}
+
+/* 
+
+LANDING SECTION 
+
+*/
+
+.landing {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  margin: 0 24px;
+}
+
+.landing__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 40%;
+  height: 100%;
+}
+
+.initial__statement {
+  padding-bottom: 48px;
+  text-align: left;
+  font-size: 48px;
+}
+
+.summary {
+  line-height: 1.5;
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #243e63;
+  text-align: left;
+}
+
+.input {
+  position: relative;
+}
+
+.email__input {
+  padding: 20px 180px 20px 32px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-radius: 99px;
+  border-style: solid;
+  border-color: #e7e7e7;
+  
+  font-weight: 500;
+}
+
+.start__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 10rem;
+  padding: 16px 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 8px 8px 8px 0;
+  background-color: #6415FF;
+  color: #f7fafc;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 99px;
+}
+
+.customers {
+  padding-top: 80px;
+}
+
+.customer__img {
+  width: 100%;
+  opacity: .5;
+}
+
+.landing__img {
+  width: 100%;
+  padding-left: 48px;
+}
+
+.landing__img--box {
+  width: 60%;
 }
